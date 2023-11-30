@@ -7,3 +7,11 @@
 .hidden{
     display: none;
 }
+
+.fake-hidden{
+    color: white;
+}
+
+.block{
+    display: inline-block;
+}
