@@ -43,6 +43,7 @@ const timer = setInterval(
                         }
 
                         setTimeout(waitText, 6000);
+                        // dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei numeri da indovinare sono stati individuati
                         function waitText(){
                             if(numbers.includes(guessNumberArray[i])){
                                 console.log(`Hai indovinato il numero: ${guessNumberArray[i]}`);
@@ -55,8 +56,6 @@ const timer = setInterval(
                              numbersToRemember.innerHTML = `I numeri da indovinare erano: ${numbers}.`
                             // console.log("I numeri che hai scritto tu sono: ", guessNumberArray);
                             writtenNumbers.innerHTML = `I numeri che hai scritto tu sono: ${guessNumberArray}.`;
-                            
-                            
                         }
                         
                         
@@ -72,7 +71,7 @@ const timer = setInterval(
 
 
 
-// dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei numeri da indovinare sono stati individuati
+
 
 
 
